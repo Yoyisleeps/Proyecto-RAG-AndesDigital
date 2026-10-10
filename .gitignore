@@ -1,0 +1,17 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Variables de entorno (¡Crítico para seguridad!)
+.env
+
+# Archivos generados por FAISS (Índice vectorial local)
+vector_index/
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de Jupyter Notebook
+.ipynb_checkpoints/
